@@ -1,4 +1,3 @@
-cat << 'EOF' > README.md
 # FYP Project Repository
 
 ## Team Members
