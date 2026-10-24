@@ -152,24 +152,16 @@ The test demonstrates why packages needed during normal execution must be declar
 
 ### 9. Package Publishing Status
 
-**Package:** `@mahaather15/devops-pipeline`  
-**Version:** `1.1.0`
+**Package:** `@mahaather22/devops-pipeline`  
+**Version:** `1.1.1`
 
-Publishing to GitHub Packages was attempted but failed with `E403 permission_denied: create_package`.
+The package was successfully published to GitHub Packages under the `MahaAther22` organization scope. The initial publication attempt for version `1.1.0` failed with an `EPUBLISHCONFLICT` error because that version already existed. The package version was then updated to `1.1.1`, and the subsequent publishing command completed successfully.
 
-The reported error was:
+**Published package URL:** https://github.com/MahaAther22/FYP_repo/pkgs/npm/devops-pipeline
 
-```text
-npm ERR! code E403
-403 Forbidden - PUT https://npm.pkg.github.com/@mahaather15%2fdevops-pipeline
-Permission permission_denied: create_package
-```
+**Package status:** Published successfully. The GitHub Packages page currently displays the package as **Private**.
 
-Therefore, successful publication to GitHub Packages has not been confirmed.
-
-**Published package URL:** Not available because the publishing attempt failed.
-
-**GitHub Release fallback URL:** Not yet available; a completed release URL has not been provided.
+**GitHub Release fallback URL:** Not applicable; the package was published directly to GitHub Packages, and no GitHub Release fallback was used.
 
 ### 10. Lab 02 Files and Fallback
 
